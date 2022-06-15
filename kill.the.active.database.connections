@@ -1,5 +1,4 @@
--- Create the sql to kill the active database connections  
--- script is needed for logout all users who use databases to be sure that no one do changes
+/*Create the sql to kill the active database connections script is needed for logout all users who use databases to be sure that no one do changes.*/
 
 declare @execSql varchar(1000), @databaseName varchar(100)  
 -- Set the database name for which to kill the connections  
