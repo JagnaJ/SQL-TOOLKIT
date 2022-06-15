@@ -1,4 +1,4 @@
--- list of users who have sysadmins rights withs status (disabled or not)
+/*list of users who have sysadmins rights withs status (disabled or not)*/
 
 SELECT 'Name' = sp.NAME, 
    sp.is_disabled AS [Is_disabled]
